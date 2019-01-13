@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family:letras;
+    src: url(Roboto-Regular.ttf);
+}
+
+body{
+    font-family: letras, sans-serif;
+    overflow-x:hidden;
+    background-image: url(images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#cuerpo{
+    background-color: white;
+}
+
+#cabezera{
+    height: 700px;
+}
+
+#cabeza{
+    height: 700px;
+    width: 100%;
+    position: fixed;
+}
+
+#logo_cabezera{
+    width: 8em;
+    margin: 1em;
+    display: inline-block;
+}
+
+#title_cabezera{
+    font-family: letras, sans-serif;
+    margin-top: 1em;
+    color: black;
+    display: inline-block;
+}
+
+.display-1{
+    font-size: 3.5em;
+}
+
+#menu{
+    font-family: letras, sans-serif;
+    margin-left: 1em;
+}
+
+#menu a{
+    color: #231E1E;
+
+}
+#presentacion{
+    height: 70em;
+}
+
+#presentacion_texto{
+    height: 70em;
+    color: #F95816;
+    background: #033a49;
+    font-family: letras, sans-serif;
+}
+
+#texto_presentacion{
+    font-size: 4em;
+}
+
+#presentacion_imagen{
+    height: 70em;
+    background-image: url(images/presentacion.jpg);
+    background-size: 200% 70em;
+}
+
+#titulo_servicios{
+    height: 20em;
+    background-color: #F95816;  
+    color: #231E1E;
+    position: relative;
+    font-family: letras, sans-serif;
+}
+
+
+#caja_servicios{
+    text-align: center;
+    position: relative;
+    background-color: white;
+}
+
+#caja_unica{
+    position: relative;
+    height: 28em;
+    width: 40em;
+    display: block;
+    background-color: #F95816;
+    color: #231E1E;
+    font-family: letras, sans-serif;
+}
+
+.servicio_izquierda{
+    margin-top: 4em;
+    margin-left: 5em;
+    margin-right: 1%;
+}
+
+.servicio_derecha{
+    margin-top: 4em;
+    margin-right: 5em;
+    margin-left: 1%;
+}
+
+.servicio_electronica{
+    min-height: 100px;
+    background-image: url(images/ServicioElectronica.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.servicio_electrico{
+    min-height: 100px;
+    background-image: url(images/ServicioElectrico.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.servicio_redes{
+    min-height: 100px;
+    background-image: url(images/ServicioRedes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.servicio_software{
+    min-height: 100px;
+    background-image: url(images/ServicioSoftware.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.final{
+    margin-bottom: 3em;
+}
+
+#carousel{
+    height: 30em;
+    margin-bottom: 7em;
+    background-color: white;
+}
+
+#imagenNoticia{
+    width: 100%;
+    height: 30em;
+}
+
+#footer{
+    color: white;
+    height: 20em;
+    background-image: url(images/footer_black.gif);
+}
+
+.mensaje_centrado{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}

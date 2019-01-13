@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family:letras;
+    src: url(Roboto-Regular.ttf);
+}
+
+body{
+    font-family: letras, sans-serif;
+    overflow-x:hidden;
+    background-image: url(images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#cabezera{
+    height: 200px;
+}
+
+#cabeza{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+}
+
+#logo_cabezera{
+    width: 8em;
+    margin: 1em;
+    display: inline-block;
+}
+
+#title_cabezera{
+    font-family: letras, sans-serif;
+    margin-top: 1em;
+    color: black;
+    display: inline-block;
+}
+
+.display-1{
+    font-size: 3.5em;
+}
+
+#menu{
+    font-family: letras, sans-serif;
+    margin-left: 1em;
+}
+
+#menu a{
+    color: #231E1E;
+
+}
+#presentacion_form{
+    height: 30em;
+}
+
+#presentacion_notificacion{
+    height: 25em;
+}
+#presentacionModificar{
+    height: 10em;
+}
+
+#cuerpo{
+    background-color: white;
+}
+
+#botonEntendido{
+    background-color: #F95816;
+    color: black;
+}
+
+#presentacion_texto{
+    height: 20em;
+    color: #F95816;
+    background: #033a49;
+    font-family: letras, sans-serif;
+}
+
+#presentacion_texto_modification{
+    height: 10em;
+    color: #F95816;
+    background: #033a49;
+    font-family: letras, sans-serif;
+}
+
+#botonBuscar{
+    display: inline-block;
+}
+
+.perro{
+    border-style: solid;
+}
+
+#texto_presentacion{
+    font-size: 4em;
+}
+
+#cajaLogin{
+    text-align: center;
+    width: 40em;
+    height: 32em;
+    border-style: solid;
+    border-color: red;
+
+}
+
+
+#division_formulario{
+    background-color: white;
+}
+
+#divisionFormulario{
+
+    background-color: white;
+    height: 10em;
+    width: 60em;
+}
+
+#resultados{
+    border-style: solid;
+    border-color: red;
+    height: 50em;
+    width: 60em;
+}
+
+.panel{
+    margin: 2em;
+    margin-left: 6em;
+    border-style: solid;
+    border-color: black;
+}
+
+
+.panel-heading{
+    border-style: solid;
+    width: 30em;   
+}
+
+.col-form-label{
+    font-size: 1em;
+    width: 30em;
+    margin-left: 1em;
+}
+
+.panel-body{
+    border-style: solid;
+    width: 80em;
+}
+
+.panel-heading{
+    background-color: #F95816;
+    color: black;
+}
+
+#datos_personales_form{
+    width: 40em;
+}
+
+#orientacion_comentario_form{
+    width: 40em;
+}
+
+#imagenSeleccion{
+    margin: 1em;
+    width: 20em;
+    height: 10em;
+    display: inline-block;
+}
+
+#carousel{
+    height: 30em;
+    margin-bottom: 7em;
+    background-color: white;
+}
+
+#imagenNoticia{
+    width: 100%;
+    height: 30em;
+}
+
+#footer{
+    position: relative;
+    color: white;
+    height: 20em;
+    background-image: url(includes/css/images/footer_black.gif);
+}
+
+.mensaje_centrado{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.botonGestion{
+    margin: 3em;
+    width: 60em;
+    background-color: #F95816;
+    color: black;
+}
+
+.botonModal{
+    width: 20em;
+    background-color: #F95816;
+    color: grey;
+}
+
+.modal-dialog {
+    height: 100px !important;
+}
+
+
+#presentacionBuscarEliminar{
+    height: 10em;
+}
+
+#cajaRescate{
+    margin: 3px;
+    background-color: #F95816;
+    color: black;
+}
+
+#cajaBoton{
+    margin-top: 10em;
+}
+
+#botonVolver{
+    background-color: #F95816;
+    color: black;
+}
+
+#contenedorComentarios{
+    background-color: #F95816;
+}
+
+
+#mostrarComentario{
+    width: 40em;
+    height: 30em;
+    border-style: solid;
+    background-color: #F95816;
+}
+
+#mostrar{
+    margin-top: 10px;
+    height: 20em;
+    background-color: #033a49;
+    color: white;
+}
+
+#botonEliminar{
+    margin-top: 20px;
+}
+
+#comentarioCajita{
+    margin-top: 20px;
+    width: 38em;
+
+}
+
+#cajaComentarioCajita{
+    margin-top: 10px;
+    background-color: #033a49;
+    color: black;
+    width: 40em;
+    height: 20em;
+}
+
+#cajaRescateModificar{
+    height: 1.5em;
+    margin-top: 10px;
+}
+
+#listaComentarios{
+    border-style: solid;
+    margin-top: 10px;
+    width: 90%;
+    background-color: white;
+    height: auto;
+}

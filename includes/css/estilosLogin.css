@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family:letras;
+    src: url(Roboto-Regular.ttf);
+}
+
+body{
+    font-family: letras, sans-serif;
+    overflow-x:hidden;
+    background-image: url(images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#cabezera{
+    height: 200px;
+}
+
+#cabeza{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+}
+
+#logo_cabezera{
+    width: 8em;
+    margin: 1em;
+    display: inline-block;
+}
+
+#title_cabezera{
+    font-family: letras, sans-serif;
+    margin-top: 1em;
+    color: black;
+    display: inline-block;
+}
+
+.display-1{
+    font-size: 3.5em;
+}
+
+#menu{
+    font-family: letras, sans-serif;
+    margin-left: 1em;
+}
+
+#menu a{
+    color: #231E1E;
+
+}
+#presentacion_form{
+    height: 20em;
+}
+
+#presentacion_notificacion{
+    height: 25em;
+}
+
+#cuerpo{
+    background-color: white;
+}
+
+#botonEntendido{
+    background-color: #F95816;
+    color: black;
+}
+
+#presentacion_texto{
+    height: 20em;
+    color: #F95816;
+    background: #033a49;
+    font-family: letras, sans-serif;
+}
+
+#presentacion_texto_modification{
+    height: 10em;
+    color: #F95816;
+    background: #033a49;
+    font-family: letras, sans-serif;
+}
+
+#botonBuscar{
+    display: inline-block;
+}
+
+.perro{
+    border-style: solid;
+}
+
+#texto_presentacion{
+    font-size: 4em;
+}
+
+#cajaLogin{
+   z-index: 30;
+}
+
+
+#division_formulario{
+    background-color: white;
+}
+
+#divisionFormulario{
+    border-style: solid;
+    background-color: white;
+    height: 10em;
+    width: 60em;
+}
+
+#resultados{
+    border-style: solid;
+    border-color: red;
+    height: 50em;
+    width: 60em;
+}
+
+.panel-heading{
+    border-style: solid;
+    width: 30em;   
+}
+
+.col-form-label{
+    font-size: 1em;
+    width: 30em;
+    margin-left: 1em;
+}
+
+.panel-body{
+    border-style: solid;
+    width: 80em;
+}
+
+.panel-heading{
+    background-color: #F95816;
+    color: black;
+}
+
+#datos_personales_form{
+    width: 40em;
+}
+
+#orientacion_comentario_form{
+    width: 40em;
+}
+
+#imagenSeleccion{
+    margin: 1em;
+    width: 20em;
+    height: 10em;
+    display: inline-block;
+}
+
+#carousel{
+    height: 30em;
+    margin-bottom: 7em;
+    background-color: white;
+}
+
+#imagenNoticia{
+    width: 100%;
+    height: 30em;
+}
+
+#footer{
+    position: relative;
+    color: white;
+    height: 20em;
+    background-image: url(images/footer_black.gif);
+}
+
+.mensaje_centrado{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+/*css para login*/
+body#LoginForm{ background-image:url("https://hdwallsource.com/img/2014/9/blur-26347-27038-hd-wallpapers.jpg"); background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;}
+
+.form-heading { color:#fff; font-size:23px;}
+.panel h2{ color: black; font-size:18px; margin:0 0 8px 0;}
+.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+.main-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 50px 70px 70px 71px;
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+  background: #F95816 none repeat scroll 0 0;
+  border-color: #F95816;
+  color: black;
+  font-size: 14px;
+  width: 100%;
+  height: 38px;
+  line-height: 50px;
+  padding: 0;
+}
+.forgot {
+  text-align: left; margin-bottom:30px;
+}
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+.login-form .btn.btn-primary.reset {
+  background: #F95816 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: black; font-size: 13px;text-decoration: none;}
+
+#loginIncorrrecto{
+    width: 20em;
+    height: 5em;
+    position: absolute;
+    margin-left: 56.2em;
+    margin-top: 2em;
+    background-color: #F15F5F;
+    color: #252222;
+
+}

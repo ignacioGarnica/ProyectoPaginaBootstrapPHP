@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Velvet Contratista y Proveedora de Software</title>
+    <link rel="icon" type="image/png" href="includes/images/logo.png"/>
+    <link rel="stylesheet" type="text/css" href="estilos2.css">
+
+    <script type="text/javascript" src="includes/js/bootstrap.js"></script>
+    <script type="text/javascript" src="includes/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="includes/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="includes/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    
+    <section class="container-fluid" id="cabezera">
+        <div class="row" id="cabeza">
+            <div id="titulo">
+                <div class="col-sm-2" >
+                    <img src="includes/css/images/logo_velvet.png" id="logo_cabezera">
+                </div>
+                <div class="col-sm-10" id="title_cabezera">
+                    <h1 class="display-1 ">Velvet</h1><h4 class="display-2"> Contratista y Desarrolladora de Software </h4>
+                </div>
+            </div>
+
+            <div id="menu">
+                <nav class="navbar" id="menu">
+                    <div class="container-fluid row">
+                        <ul class="nav navbar-nav col-sm-12">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="formSuggestions.html">Dejanos tu comentario!</a></li>
+                        </ul>      
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <div id="cuerpo">
+        <section class="container-fluid" id="presentacion_form">
+            <div class="row">
+                <div class="container-fluid col-sm-12" id="presentacion_texto">
+                    <div class="mensaje_centrado ">
+                        <strong>
+                            <h1 id="texto_presentacion">Comenta nuestros servicios!</h1>
+                            <h3>Tomamos tus comentarios para mejorar y entregar mejor calidad a nuestras obras</h3>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="container-fluid" id="formulario">
+            <div class="row">
+                <form action="http://localhost/HtmlConBootstrapYPHP/includes/php/guardar.php" method="post">
+                    <div class="panel" id="orientacion_comentario_form">
+                        <div class="panel-heading">Orientación de Comentario</div>
+                        <div class="panel-body">
+
+                            <fieldset class="form-group">
+                            <div class="row">
+                                <legend class="col-form-label">Seleccione una de las opciones:</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <img id="imagenSeleccion" src="includes/css/images/ServicioElectronica.jpg">
+                                        <input class="form-check-input" type="radio" name="orientacion" id="gridRadios1" value="1" checked>
+                                        <label class="form-check-label" for="gridRadios1">
+                                            Servicio de Electrónica
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <img id="imagenSeleccion" src="includes/css/images/ServicioElectrico.jpg">
+                                        <input class="form-check-input" type="radio" name="orientacion" id="gridRadios2" value="2">
+                                        <label class="form-check-label" for="gridRadios2">
+                                           Servicio de Electricidad
+                                        </label>
+                                    </div>
+                                    <div class="form-check disabled">
+                                        <img id="imagenSeleccion" src="includes/css/images/ServicioRedes.jpg">
+                                        <input class="form-check-input" type="radio" name="orientacion" id="gridRadios3" value="3">
+                                        <label class="form-check-label" for="gridRadios3">
+                                                Servicio de Redes y Conectividad
+                                        </label>
+                                    </div>
+                                    <div class="form-check disabled">
+                                        <img id="imagenSeleccion" src="includes/css/images/ServicioSoftware.jpg">
+                                        <input class="form-check-input" type="radio" name="orientacion" id="gridRadios4" value="4">
+                                        <label class="form-check-label" for="gridRadios3">
+                                            Servicio de Desarrollo de Software
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            </fieldset>
+                        </div>
+                    </div>
+
+                    <div class="panel" id="datos_personales_form">
+                        <div class="panel-heading">Datos Personales</div>
+                        <div class="panel-body">
+                                
+                            <div class="form-group row">
+                                <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
+                                <div class="col-sm-10">
+                                <input name="nombre" type="name" class="form-control" id="inputNombre" placeholder="Nombre" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="rutInput" class="col-sm-2 col-form-label">Rut</label>
+                                <div class="col-sm-10">
+                                <input name="rut" type="name" class="form-control" id="rutInput" placeholder="Rut" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-sm-10">
+                                <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="inputFono" class="col-sm-2 col-form-label">Fono</label>
+                                <div class="col-sm-10">
+                                <input name="telefono" type="tel" class="form-control" id="inputFono" placeholder="Ejemplo: 912345678">
+                                </div>
+                            </div>    
+
+                            <!--<div class="form-group row">
+                                <label for="inputFecha" class="col-sm-2 col-form-label">Fecha</label>
+                                <div class="col-sm-10">
+                                <input name="fecha" type="date" class="form-control" id="inputFecha" placeholder="Ingrese fecha de suceso">
+                                </div>
+                            </div>-->
+                        </div>
+                    </div>
+
+                    
+                    <div class="panel" id="comentario_form">
+                        <div class="panel-heading">Comentario</div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                            <div class="row">
+                                <legend class="col-sm-2" for="comentario">Escriba su comentario</legend>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" name="comentario" rows="7" id="comentario"></textarea required>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <center>
+                            <div class="col-sm-12">
+                                <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#confirmacion" >Enviar Comentario</button>
+                            </div>
+                        </center>
+                    </div>
+                </form>
+            </div>
+        </section>
+       
+        <section class="container-fluid" id="footer">
+            <div class="col-sm-3">
+                <nav class="row" id="menuFooter">
+                    <ul>
+                       <h3 class="tituloFooter">Velvet</h3>
+                       <li><a href="#" id="linkFooter">Misión y Vision</a></li>
+                        <li><a href="#" id="linkFooter">Nosotros</a></li>
+                        <li><a href="#" id="linkFooter">FAQ</a></li>
+                        <li><a href="#" id="linkFooter">Marco Legal</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-3">
+                <nav class="row" id="menuFooter">
+                    <ul>
+                        <h3 class="tituloFooter">Atención al cliente</h3>
+                        <li><a href="#" id="linkFooter">(52) 3452323</a></li>
+                        <li><a href="#" id="linkFooter">clientassist@velvet.com</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-3">
+                <nav class="row" id="menuFooter">
+                    <ul>
+                        <h3 class="tituloFooter">Información</h3>
+                        <li><a href="#" id="linkFooter">Terminos y Condiciones</a></li>
+                        <li><a href="#" id="linkFooter">Politicas de Privacidad</a></li>
+                        <li><a href="#" id="linkFooter">Medios de Pago</a></li>
+                        <li><a href="#" id="linkFooter">Cotizaciones</a></li>
+                        <li><a href="login.html" id="linkFooter">Administración</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <h6 id="piePagina">Derechos Reservados 2001-2018 Desarrollos Velvet. Todos los Derechos Reservados.
+            © Derechos Reservados 2001-2018 Velvet.com Derechos de Contenido Reservados.
+            DERECHOS DE AUTOR.
+            Todos los contenidos de este Sitio (Incluyendo, pero no limitado a, texto, logotipos, contenido, fotografías, audio, botones, nombres comerciales y vídeo) están sujetos a derechos de propiedad por las leyes de Derechos de Autor y demás Leyes relativas Internacionales a Velvet Contratista y Desarrolladora de Software y de terceros titulares de los mismos que han autorizado debidamente su inclusión.
+            </h6>
+            
+        </section>
+
+    </div>
+
+</body>
+
+    
+    
+   
+
+
+</html>
